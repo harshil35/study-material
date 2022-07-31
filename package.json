@@ -2,7 +2,7 @@
   "name": "study-material",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/harshil35",
+  "homepage": "/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@flaticon/flaticon-uicons": "^1.7.0",
