@@ -6,10 +6,11 @@ import PastPapers from './aboutsubject/pastpapers';
 import Notes from './aboutsubject/notes';
 import Books from './aboutsubject/books';
 import ShowLinks from './showlinks';
-import Mail from './pages/mail/index'
+import Mail from './pages/mail/index';
+import {HashRouter} from 'react-router-dom';
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
           <Route path="/mail" element={<Mail/>}/>
           <Route path="/" element={<HomePage/>}/>
@@ -134,7 +135,7 @@ function App() {
           <Route path="/DAA/Books" element={<ShowLinks/>}/>
 
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
