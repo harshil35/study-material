@@ -1,0 +1,33 @@
+.link-container-outer{
+  background-color: white;
+  text-align: center; 
+  height: 100vh;
+}
+
+.heading-for-linkpage{
+  font-size: 36px;
+  color: rgb(20,20,20);
+  background-color: antiquewhite;
+  padding-bottom: 10px;
+  border: none;
+  border-top: none;
+}
+
+.this-link{
+  background: none;
+  border-radius: 8px;
+  padding-bottom:10px;
+  border-bottom: 0;
+  font-weight: 600;
+}
+
+.disp-links{
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+}
+
+.link-head{
+  border: 1px solid rgb(245, 245, 245);
+}

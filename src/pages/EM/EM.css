@@ -1,0 +1,32 @@
+.subject-container{
+  background: antiquewhite;
+  text-align: center;
+  border: 2px solid var(--my-gray);
+  border-radius: 8px;
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-bottom: 12px;
+}
+
+.subject-component-outer{
+  text-align: center; 
+  height: 100vh;
+}
+
+.subject-heading{
+  font-size: 36px;
+  color: rgb(20,20,20);
+  background-color: antiquewhite;
+  padding: 0 0 10px 0;
+  border-top: none;
+  border-radius: 8px;
+}
+
+.em-sub-head{
+  background-color: antiquewhite;
+}
+
+.add-border{
+  padding:0 0 10px 0;
+  border: 1px solid rgb(245, 245, 245);
+}

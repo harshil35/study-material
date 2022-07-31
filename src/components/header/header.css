@@ -1,0 +1,85 @@
+.header{
+  width:100%;
+  display:flex;
+  align-items: center;
+  margin-bottom:12px;
+  background-color: #faebd7;
+  justify-content: space-around;
+}
+
+.header-logo{
+  height:60px;
+  padding: 5px;
+  max-width:140px;
+  margin-right:24px;
+}
+
+.header-search{
+  height:42px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: var(--primary-box-shadow);
+  border:1px solid var(--border-white);
+  width:70%;
+  background-color: var(--primary-bg);
+}
+
+.search-button{
+  cursor: pointer;
+  border:none;
+  border-radius: 8px;
+  background:none;
+  display:flex;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.search-button-image{
+  width:auto;
+  height:30px;  
+  background: transparent;
+}
+
+.enter-text{
+  height:40px;
+  width:90%;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mail-admin-image,.refresh-button-image{
+  width:auto;
+  height:30px;  
+}
+
+.mail-admin,.refresh-button{
+  border:none;
+  background-color: transparent;
+  border-radius: 8px;
+  height:30px;
+  cursor: pointer;
+  display:flex;
+  justify-content: space-between;
+}
+
+.refresh-button-image{
+  height:29px;
+}
+.mail-admin{
+  padding-top: 1px;
+}
+.back-button{
+  border:none;
+  background-color: transparent;
+  border-radius: 8px;
+  height:30px;
+  cursor: pointer;
+  display:flex;
+  justify-content: space-between;
+}
